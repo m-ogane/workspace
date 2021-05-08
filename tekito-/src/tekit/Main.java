@@ -11,7 +11,7 @@ public class Main {
 //		System.out.println(d);
 //		Scanner scanner = new Scanner(System.in);
 		LocalDate dateRandom;
-		dateRandom = LocalDate.now().minusDays(new Random().nextInt((int) dayPeriod));
+		dateRandom = LocalDate.now().minusDays(new Random().nextInt((int) a));
 
 //	    String a = scanner.next();
 //	    System.out.println(a);

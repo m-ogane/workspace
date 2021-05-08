@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	width: 704px;
+	margin: 0px auto;
+}
+
+#photo_list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border: solid 2px #666666;
+}
+
+#photo_list img {
+	magin: 10px;
+}
+</style>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>PHOTO ALBUM</h1>
+	<div id="photo_list">
+		    <img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic01.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+			<img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic02.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+			<img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic03.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+			<img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic04.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+			<img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic05.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+			<img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic06.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+			<img src="C:\Users\am\Documents\Javascript\sample\sample\step20\pic07.jpg"onmouseover="mOver(this)" onmouseout="mOut(this)">
+	</div>
+
+
+	<script>
+function mOver(obj) {
+	obj.style.marginTop = '5px';
+	obj.style.marginBottom = '15px';
+	obj.style.boxShadow = '0px 5px 15px #666666';
+}
+function mOut(obj){
+	obj.style.margin = '10px';
+	obj.style.boxShadow = 'none';
+}
+
+</script>
+
+</body>
+</html>
